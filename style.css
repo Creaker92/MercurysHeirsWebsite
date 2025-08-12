@@ -106,6 +106,7 @@ body {
     height:100%;
     width:4px;
     background:white;
+    cursor: pointer;
     /*Stop vertical scrolling on touch*/
     -ms-touch-action: pan-y;
     touch-action: pan-y;
@@ -113,19 +114,19 @@ body {
 
 .slider-handle:after {
     background:#000;
-  font-family: "Font Awesome 5 Free";
-  content:'\f07e';
-  font-weight:900;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  color:white;
-  position:absolute;
-  margin: 0 0 0 -22px;
-  width:40px;
-  height:40px;
-  border-radius:50%;
-  border:3px solid white;
+    font-family: "Font Awesome 5 Free";
+    content:'\f07e';
+    font-weight:900;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    position:absolute;
+    margin: 0 0 0 -22px;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    border:3px solid white;
 }
 
 .info-text {

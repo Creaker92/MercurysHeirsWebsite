@@ -106,7 +106,7 @@ body {
     height:100%;
     width:4px;
     background:white;
-    cursor: pointer;
+    cursor: ew-resize;
     /*Stop vertical scrolling on touch*/
     -ms-touch-action: pan-y;
     touch-action: pan-y;

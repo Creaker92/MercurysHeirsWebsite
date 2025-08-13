@@ -69,40 +69,44 @@ body {
 }
 
 /* MAIN SECTION */
-.main-section {
+.row {
+    width: 80%;
     display: flex;
-    padding: 20px;
     gap: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
-.ode-container {
-    flex-direction: column;
-    width: 50%;
-}
-
-.lydia-container {
-    flex-direction: column;
-    width: 50%;
-}
-
-.ode-img {
-    width: 50%;
-}
-
-.ode-text {
-    text-align: justify;
-    width: 50%;
+  .box {
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
-
 }
 
-.lydia-img {
-    width: 50%;
+  /* Boyutlar */
+.small {
+    width: 400px;
+    height: 400px;
+}
+.large {
+    width: 1000px;
+    height: 350px;
+    text-align: center;
 }
 
+/* Resim ayarları */
+.box img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
 
-.lydia-text {
-    text-align: justify;
-    width: 50%;
-    color: white;
+/* Metin kutusu */
+.text-box {
+    font-size: 18px;
+    line-height: 1.4;
 }

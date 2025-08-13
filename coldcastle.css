@@ -129,9 +129,11 @@ body {
 }
 
 .info-text {
+    font-size: 16px;
     text-align: justify;
     width: 50%;
     color: white;
+    padding: 25px;
 }
 
 /* THUMBNAIL CAROUSEL */

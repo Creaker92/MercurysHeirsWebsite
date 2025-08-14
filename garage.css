@@ -68,6 +68,16 @@ body {
     color: #000;
 }
 
+.navbar a.find {
+    color: yellow;
+    margin-left: 10rem;
+}
+
+.navbar a.find:hover {
+    background: #00ff00;
+    color: #000;
+}
+
 /* MAIN SECTION */
 .main-section {
     display: flex;
